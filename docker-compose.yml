@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+ mysqldb:
+  image:    mysql
+  restart:  always
+  environment:
+   - MYSQL_DATABASE=where2study
+   - MYSQL_ROOT_PASSWORD=root
+   - MYSQL_USER=user
+   - MYSQL_PASSWORD=toor
+  ports:
+   - "13113:3306"
+  volumes:
+   - ./data/db/mysql:/var/lib/mysql/:z
