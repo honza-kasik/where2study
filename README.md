@@ -20,14 +20,14 @@ Application was developed using JBoss Developer Studio and Wildfly 11
 The only deploy which I made was using EAR project embedded in Eclipse/JBDS. There was plan to introduce maven build to EAR.
 
 1. Open Eclipse/JDBS
-1. Create new EAR project and make `TODO` and `TODO` its modules
+1. Create new EAR project and make `where2study-ejb` and `where2study-war` its modules
 1. Start SQL server, preferably using attached `docker-compose.yml` file by running `sudo docker-compose up`
 1. Deploy EAR on server
-1. Open `TODO` in web browser
+1. Open page which appeared under "...registered web context.." in server's console in web browser
 1. Register first user by clicking "Register" on top right
-1. Edit user's privilege in database using yours favourite tool (e.g. MySQL Workbench) by updating value in `isAdmin` from 0 to 1
+1. Edit user's privilege in database using yours favorite tool (e.g. MySQL Workbench) by updating value in `isAdmin` from 0 to 1
 1. Edit user's preferences in application and click button labeled "Download all data"
-1. After the client recieves reponse, all data should be already persisted in inner representation
+1. After the client receives response, all data should be already persisted in inner representation
 
 ## Database schema
 
