@@ -1,0 +1,6 @@
+[submodule "where2study-ejb"]
+	path = where2study-ejb
+	url = https://github.com/honza-kasik/where2study-ejb
+[submodule "where2study-war"]
+	path = where2study-war
+	url = https://github.com/honza-kasik/where2study-war
